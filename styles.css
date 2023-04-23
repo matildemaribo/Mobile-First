@@ -1,0 +1,771 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #0927da;
+    font-family: sytem;
+}
+main video{
+    width: 100%;
+}
+
+#videomobil{
+    min-width: 100%;
+    min-height:100%;
+    width: 100%;
+    height:min-content;
+    z-index: -2;
+}
+
+#logovideo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 10;
+}
+
+body{
+    background-color: black;
+    width: auto;
+}
+
+
+/*ALT herunder handler om flavours og drinks knapperne*/
+.top-circle{
+    width: 300px;
+    height: 300px;
+    background: royalblue;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    z-index: 50;
+}
+
+.top-circle a{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    display: block;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.bottom-circle {
+    width: 300px;
+    height: 300px;
+    background: royalblue;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: -134px;
+    left: 50%;
+    z-index: 49;
+}
+.bottom-circle a {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    display: block;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/*--ALT HERUNDER HANDLER OM DEN SIDE HVOR FLASKERNE ER--*/
+.flaskeheader{
+    background-color: rgba(0, 74, 164, 1);
+    height: 50px;
+    width: 100%;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+.flaskeheader a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 25px 25px;
+    font-size: 30px;
+}
+.burgermenu{
+    margin-left: 1140px;
+}
+.img-wrap{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.ydreflaske{
+    background-color: #fff;
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/*Flaskers tekst og farver er herunder*/
+.flaske_itempears{
+    background-color: rgba(48, 77, 26, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itempears h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(41, 74, 23, 1);
+    text-transform: uppercase;
+}
+.flaske_itemwatermelon{
+    background-color: rgba(37, 127, 72, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itemwatermelon h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(4, 132, 74, 1);
+    text-transform: uppercase;
+}
+.flaske_itempeppar{
+    background-color: rgba(244, 40, 37, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itempeppar h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(255, 47, 48, 1);
+    text-transform: uppercase;
+}
+.flaske_itemraspberry{
+    background-color: rgba(249, 191, 220, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itemraspberry h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(169, 2, 79, 1);
+    text-transform: uppercase;
+}
+.flaske_itemvanilla{
+    background-color: rgba(65, 39, 28, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itemvanilla h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(66, 37, 24, 1);
+    text-transform: uppercase;
+}
+.flaske_itemwild{
+    background-color: rgba(188, 117, 193, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itemwild h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(194, 112, 188, 1);
+    text-transform: uppercase;
+}
+.flaske_itempeach{
+    background-color: rgba(244, 220, 208, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itempeach h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(249, 154, 95, 1);
+    text-transform: uppercase;
+}
+.flaske_itempassion{
+    background-color: rgba(119, 4, 87, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itempassion h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(119, 0, 91, 1);
+    text-transform: uppercase;
+}
+.flaske_itemmango{
+    background-color: rgba(215, 174, 68, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itemmango h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(58, 132, 7, 1);
+    text-transform: uppercase;
+}
+.flaske_itemlime{
+    background-color: rgba(61, 134, 0, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itemlime h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(143, 169, 24, 1);
+    text-transform: uppercase;
+}
+.flaske_itemgrapefruit{
+    background-color: rgba(237, 206, 211, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itemgrapefruit h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(239, 60, 93, 1);
+    text-transform: uppercase;
+}
+.flaske_itemcitron{
+    background-color: rgba(235, 254, 104, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.flaske_itemcitron h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 20%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(242, 213, 28, 1);
+    text-transform: uppercase;
+}
+
+
+
+/*--Hover effekt til kort på flaske side--*/
+.flaske_itempears:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.flaske_itemwatermelon:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.flaske_itempeppar:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.flaske_itemraspberry:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.flaske_itemvanilla:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.flaske_itemwild:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.flaske_itempeach:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.flaske_itempassion:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.flaske_itemmango:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.flaske_itemlime:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.flaske_itemgrapefruit:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.flaske_itemcitron:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ydrecocktails{
+    background-color: #fff;
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ydrecocktails img{
+    margin-top:5%;
+}
+
+.mangosoda{
+    background-color: rgba(252, 201, 201, 0.5);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+
+.mangosoda h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 12%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(255, 47, 48, 1);
+    text-transform: uppercase;
+}
+
+.mangosoda:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.espressomartini{
+    background-color: rgba(188, 117, 193, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.espressomartini h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 10%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(194, 112, 188, 1);
+    text-transform: uppercase;
+    text-align: center;
+}
+.espressomartini:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.mangobreeze{
+    background-color: rgba(243, 234, 207, 1);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.mangobreeze h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 13%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(58, 132, 7, 1);
+    text-transform: uppercase;
+}
+.mangobreeze:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.mojito{
+    background-color: rgba(249, 191, 220, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.mojito h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 7%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(169, 2, 79, 1);
+    text-transform: uppercase;
+}
+.mojito:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.mangohazz{
+    background-color: rgba(65, 39, 28, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.mangohazz h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 10%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(66, 37, 24, 1);
+    text-transform: uppercase;
+}
+.mangohazz:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.moscowmule{
+    background-color: rgba(37, 127, 72, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.moscowmule h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 11%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(4, 132, 74, 1);
+    text-transform: uppercase;
+}
+.moscowmule:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.drymartini{
+    background-color: rgba(244, 220, 208, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.drymartini h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 8%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(249, 154, 95, 1);
+    text-transform: uppercase;
+}
+.drymartini:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.whiskysour{
+    background-color: rgba(119, 4, 87, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.whiskysour h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 10%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(119, 0, 91, 1);
+    text-transform: uppercase;
+}
+.whiskysour:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.pinocolada{
+    background-color: rgba(48, 77, 26, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.pinocolada h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 10%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(41, 74, 23, 1);
+    text-transform: uppercase;
+}
+.pinocolada:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.strawberrydaiquiri{
+    background-color: rgba(61, 134, 0, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.strawberrydaiquiri h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 10%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(143, 169, 24, 1);
+    text-transform: uppercase;
+    text-align: center;
+}
+.strawberrydaiquiri:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.pornstarmartini{
+    background-color: rgba(237, 206, 211, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.pornstarmartini h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 13%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(239, 60, 93, 1);
+    text-transform: uppercase;
+    text-align: center;
+}
+.pornstarmartini:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.longisland{
+    background-color: rgba(235, 254, 104, 0.25);
+    border-radius: 3%;
+    width: 20%;
+    height: 90%;
+    cursor: pointer;
+}
+.longisland h3{
+    display: grid;
+    justify-content: center;
+    padding-top: 13%;
+    font-family: "Pathway Gothic One",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(242, 213, 28, 1);
+    text-transform: uppercase;
+    text-align: center;
+}
+.longisland:hover{
+    transform: scale(1.05, 1.05);
+    transition: 1s ease-out;
+    box-shadow: 0px 18px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.flaskefooter{
+    background-color: rgba(0, 74, 164, 1);
+    height: 275px;
+    width: 100%;
+    font-weight: 800;
+    display: flex;
+}
+
+.flaskefooter a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.footervenstre{
+    width:200px;
+    color: white;
+    margin-left: 5%;
+    padding-top: 1.3%;
+}
+
+hr{
+    width:200px;
+    border-style: solid;
+    border-width: 3;
+    border-color: rgba(54, 118, 195, 1);
+    margin-top: 10px;
+}
+
+.pfooter{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-left: 2%;
+}
+
+.footer{
+    display:flex;
+    align-items: center;
+}
+
+.imagefooter{
+    width:12%;
+}
+
+.footerhøjre{
+    width:200px;
+    color: white;
+    margin-left: 5%;
+    padding-top: 1.3%;
+    margin-left: 900px;
+    text-transform: uppercase;
+}
+
+#ikonersome{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+/*Laptop layout:*/
+@media screen and (min-width:768px) {
+    
+
+    #videomobil{
+        display: none;
+    }
+}
+
+/*Mobil layout:*/
+@media screen and (max-width:768px){
+    main video{
+        display:none
+    }
+
+    #videomobil{
+        display: contents;
+    }
+}
+
+
+
+
